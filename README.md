@@ -1,53 +1,61 @@
-# Website da ONG Transformar - Projeto de Desenvolvimento Front-End
+# 🌱 Projeto ONG Transformar - Uma História de Evolução
 
-Este repositório representa a consolidação e profissionalização do website da ONG Transformar, aplicando práticas de versionamento, acessibilidade e otimização, conforme as diretrizes da entrega final da disciplina de Desenvolvimento Front-End.
+![CI](https://github.com/kauan-create/manipulacao-do-dom/actions/workflows/build.yml/badge.svg)
 
-## Visão Geral do Projeto
+Este projeto conta a história de evolução de um site institucional, desde sua concepção inicial até sua transformação em uma plataforma profissional e totalmente acessível. A cada fase, novas tecnologias e práticas foram incorporadas, resultando em um projeto robusto e inclusivo.
 
-O projeto consiste na criação do website para a ONG "Transformar", uma organização focada em impacto social. O site é composto por três seções principais: uma página inicial de apresentação, uma seção que detalha os projetos da ONG, e um formulário para cadastro de novos voluntários. O foco desta entrega final é garantir que o projeto não seja apenas funcional, mas também robusto, acessível a todos os usuários e versionado de maneira profissional.
+## 📖 Fases do Projeto
 
-## Deploy e Demonstração
+### 🌱 Fase 1: Base Inicial
+- Estrutura HTML básica
+- Estilos CSS simples
+- Formulário de cadastro
+- Layout responsivo básico
 
-Uma versão de produção deste projeto está disponível para avaliação no seguinte link:
+### 🎨 Fase 2: Aprimoramentos
+- Reorganização dos estilos
+- Sistema de grid
+- Menu responsivo
+- Melhorias na experiência móvel
 
-- **Link da Aplicação:** [**INSIRA O LINK DO SEU DEPLOY AQUI (ex: Vercel, Netlify, GitHub Pages)**]
+### ⚡ Fase 3: Interatividade
+- Manipulação do DOM
+- Menus dinâmicos
+- Validações em tempo real
+- Feedback visual
+
+### 🌟 Fase 4: Profissionalização
+- Acessibilidade WCAG 2.1 AA
+- Sistema de temas
+- GitFlow e CI/CD
+- Otimização de performance
+
+## 🛠️ Tecnologias Principais
+- HTML5 Semântico
+- CSS3 (Grid/Flexbox)
+- JavaScript
+- Git & GitHub Actions
+
+## 🎯 Destaques
+- Design responsivo
+- Acessibilidade completa
+- Sistema de temas (claro/escuro)
+- CI/CD automatizado
+- Código organizado e documentado
+
+## 🤝 Como Contribuir
+1. Faça um fork do projeto
+2. Crie sua branch: `git checkout -b feature/nova-funcionalidade`
+3. Commit suas mudanças: `git commit -m 'feat: adiciona nova funcionalidade'`
+4. Push para a branch: `git push origin feature/nova-funcionalidade`
+5. Abra um Pull Request
+
+## 📈 Próximos Passos
+- Mais temas visuais
+- Animações acessíveis
+- Expansão de funcionalidades
+- Melhorias contínuas em acessibilidade
 
 ---
 
-## Especificações Técnicas e Estratégias Adotadas
-
-Esta seção detalha as estratégias implementadas para cumprir os requisitos técnicos obrigatórios.
-
-### 1. Controle de Versão com Git/GitHub
-
-Para garantir um ciclo de desenvolvimento organizado e rastreável, adotamos as seguintes práticas:
-
--   **Estratégia de Branching (GitFlow):** O desenvolvimento segue o modelo GitFlow, utilizando as seguintes branches:
-    -   `main`: Contém o código de produção estável (releases).
-    -   `develop`: Branch de desenvolvimento principal que integra as novas funcionalidades.
-    -   `feature/*`: Branches para novas funcionalidades (ex: `feature/modo-noturno`).
-    -   `release/*`: Branches para preparar uma nova versão de produção.
-    -   `hotfix/*`: Branches para correções críticas em produção.
-
--   **Commits Semânticos:** Todos os commits seguem a convenção de [Commits Convencionais](https://www.conventionalcommits.org/en/v1.0.0/) para criar um histórico claro e legível.
-    -   *Exemplo:* `feat: adiciona formulário de cadastro de voluntários`
-    -   *Exemplo:* `fix: corrige problema de contraste no rodapé`
-
--   **Releases e Versionamento Semântico (SemVer):** As versões do projeto seguem o padrão `MAJOR.MINOR.PATCH` (ex: `v1.2.1`). As releases são criadas no GitHub a partir da branch `main`.
-
-### 2. Acessibilidade (Conformidade WCAG 2.1 Nível AA)
-
-O compromisso com a acessibilidade é um pilar deste projeto. As seguintes diretrizes foram estabelecidas:
-
--   **Navegação por Teclado:** Todos os elementos interativos são totalmente acessíveis e operáveis utilizando apenas o teclado, com indicadores de foco visíveis.
--   **Estrutura Semântica:** O HTML foi estruturado utilizando tags semânticas (`<header>`, `<main>`, `<nav>`, `<footer>`) para dar significado e contexto ao conteúdo.
--   **Contraste de Cores:** O design respeita o contraste mínimo de 4.5:1 para textos.
--   **Suporte a Leitores de Tela:** Atributos ARIA são utilizados quando necessário e todas as imagens possuem atributos `alt` descritivos.
--   **Modo Escuro e Alto Contraste:** O projeto inclui temas alternativos para melhor experiência do usuário.
-
-### 3. Otimização para Produção
-
--   **Minificação:** Os arquivos CSS, JavaScript e HTML são minificados para reduzir seu tamanho.
--   **Compressão de Imagens:** As imagens (WEBP, JPG, PNG) são comprimidas e otimizadas para a web.
-
----
+Feito com 💜 e foco em acessibilidade
